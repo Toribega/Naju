@@ -11,3 +11,5 @@ import matplotlib.font_manager as fm  # 폰트 관리
 fe = fm.FontEntry(fname=r'/usr/share/fonts/truetype/nanum/NanumGothic.ttf', name='NanumGothic') #파일 저장되어있는 경로와 이름 설정
 fm.fontManager.ttflist.insert(0, fe)  # Matplotlib에 폰트 추가
 plt.rcParams.update({'font.size': 10, 'font.family': 'NanumGothic'}) #폰트설정
+
+pd.options.mode.chained_assignment = None
